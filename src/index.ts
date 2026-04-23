@@ -1,0 +1,1 @@
+export const somaNum = (x: number, y: number) => x + y;

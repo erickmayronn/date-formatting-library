@@ -1,0 +1,29 @@
+{
+  "name": "@erickmayronn/soma-lib",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+    "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickmayronn/date-formatting-library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/erickmayronn/date-formatting-library/issues"
+  },
+  "homepage": "https://github.com/erickmayronn/date-formatting-library#readme",
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
